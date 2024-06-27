@@ -15,7 +15,7 @@ export default async function() {
     cipher.final()
     return encryptedValue
   }
-  return Respone.json({
+  return Response.json({
     string: encryptValue('testing')
   })
 }
