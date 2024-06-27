@@ -1,5 +1,5 @@
 import {createCipheriv} from 'node:crypto'
-export defacult async function() {
+export default async function() {
   function encryptValue(originalString) {
     const encryptionKey = 'testkeys'
     const bufferKey = Buffer.from(encryptionKey, 'utf8')
