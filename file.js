@@ -1,6 +1,6 @@
 import {createCipheriv} from 'node:crypto'
 function encryptValue(originalString) {
-  const encryptionKey = 'testkeys'
+  const encryptionKey = 'za2paS0x'
   const bufferKey = Buffer.from(encryptionKey, 'utf8')
   let cipher = createCipheriv('DES-ECB', bufferKey, null)
   cipher.setAutoPadding(false)
